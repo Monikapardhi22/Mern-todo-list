@@ -1,0 +1,78 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f3f4f6;
+margin: 0;
+padding: 0;
+}
+
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background: white;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav a {
+text-decoration: none;
+color: #333;
+margin-right: 15px;
+}
+
+
+.nav button {
+border: none;
+background: #f87171;
+color: white;
+border-radius: 5px;
+padding: 6px 10px;
+cursor: pointer;
+}
+
+
+.container {
+max-width: 700px;
+margin: 20px auto;
+background: white;
+padding: 20px;
+border-radius: 8px;
+}
+
+
+.card input, .card button {
+margin: 5px 0;
+padding: 10px;
+width: 100%;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+
+.todo-list {
+margin-top: 20px;
+}
+
+
+.todo-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #f9fafb;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+
+.todo-item span {
+flex-grow: 1;
+margin-left: 10px;
+}
+
+
+button {
+cursor: pointer;
+}
